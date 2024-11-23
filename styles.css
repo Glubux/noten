@@ -9,17 +9,16 @@ body {
 
 /* Header-Styling */
 header {
-    background-color: #333;
+    background-color: #003c7c;
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
+    padding-left: 50px;
 }
 
 /* Container für alle Musikstücke */
 #music-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin: 20px;
 }
 

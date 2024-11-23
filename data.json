@@ -1,42 +1,32 @@
 [
     {
-        "bezeichnung": "solo",
-        "titel": "Song 1",
-        "cover": "cover.jpg",
+        "bezeichnung": "hit_the_road_jack",
+        "titel": "Hit the Road Jack",
+        "cover": "cover.png",
         "files": [
             {
-                "name": "Song 1 - Solo",
-                "file": "song1.pdf"
-            }
-        ]
-    },
-    {
-        "bezeichnung": "duett",
-        "titel": "Song 2",
-        "cover": "cover.jpg",
-        "files": [
-            {
-                "name": "Song 2 - Duett",
-                "file": "song2.pdf"
+                "name": "Partitur",
+                "file": "Hit the Road Jack.pdf"
             },
             {
-                "name": "Song 2 - Duett Stimme 2",
-                "file": "song2_v2.pdf"
-            }
-        ]
-    },
-    {
-        "bezeichnung": "trio",
-        "titel": "Song 3",
-        "cover": "cover.jpg",
-        "files": [
-            {
-                "name": "Song 3 - Duett",
-                "file": "song3.pdf"
+                "name": "Violine 1",
+                "file": "Hit the Road Jack-Violine_1.pdf"
             },
             {
-                "name": "Song 3 - Duett Stimme 2",
-                "file": "song2_v3.pdf"
+                "name": "Violine 2",
+                "file": "Hit the Road Jack-Violine_2.pdf"
+            },
+            {
+                "name": "Klarinette",
+                "file": "Hit the Road Jack-Klarinette.pdf"
+            },
+            {
+                "name": "Violoncello",
+                "file": "Hit the Road Jack-Violoncello.pdf"
+            },
+            {
+                "name": "Klavier",
+                "file": "Hit the Road Jack-Klavier.pdf"
             }
         ]
     }
