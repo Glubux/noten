@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noten</title>
+    <title>Musiknoten Download</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>Musiknoten Download</h1>
+    </header>
+    <main id="music-container"></main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.getElementById("music-container");
+
+            // Daten aus der JSON-Datei laden
+            fetch("data.json")
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP-Fehler! Status: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    // Songs dynamisch hinzufügen
+                    data.forEach(song => {
+                        const songDiv = document.createElement("div");
+                        songDiv.classList.add("music-item");
+
+                        // Generierung der Pfade basierend auf der Bezeichnung
+                        const songFolderPath = `./noten/${song.bezeichnung}`;
+
+                        songDiv.innerHTML = `
+                            <img src="${songFolderPath}/${song.cover}" alt="${song.titel}">
+                            <h2>${song.titel}</h2>
+                            <div class="notes-list">
+                                ${song.files.map(note => `
+                                    <div class="download-item">
+                                        <span>${note.name}</span>
+                                        <button onclick="window.open('${songFolderPath}/${note.file}', '_blank')">Download</button>
+                                    </div>
+                                `).join("")}
+                            </div>
+                        `;
+
+                        container.appendChild(songDiv);
+                    });
+                })
+                .catch(error => {
+                    console.error("Fehler beim Laden der Daten:", error);
+                    container.textContent = "Fehler beim Laden der Inhalte.";
+                });
+        });
+    </script>
 </body>
 </html>

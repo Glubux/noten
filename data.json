@@ -1,0 +1,43 @@
+[
+    {
+        "bezeichnung": "solo",
+        "titel": "Song 1",
+        "cover": "cover.jpg",
+        "files": [
+            {
+                "name": "Song 1 - Solo",
+                "file": "song1.pdf"
+            }
+        ]
+    },
+    {
+        "bezeichnung": "duett",
+        "titel": "Song 2",
+        "cover": "cover.jpg",
+        "files": [
+            {
+                "name": "Song 2 - Duett",
+                "file": "song2.pdf"
+            },
+            {
+                "name": "Song 2 - Duett Stimme 2",
+                "file": "song2_v2.pdf"
+            }
+        ]
+    },
+    {
+        "bezeichnung": "trio",
+        "titel": "Song 3",
+        "cover": "cover.jpg",
+        "files": [
+            {
+                "name": "Song 3 - Duett",
+                "file": "song3.pdf"
+            },
+            {
+                "name": "Song 3 - Duett Stimme 2",
+                "file": "song2_v3.pdf"
+            }
+        ]
+    }
+]
