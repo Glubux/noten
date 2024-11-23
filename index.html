@@ -12,6 +12,11 @@
     </header>
     <main id="music-container"></main>
 
+    <footer>
+        <p>&copy; 2024 Flurin. Alle Rechte vorbehalten.</p>
+    </footer>
+    
+
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const container = document.getElementById("music-container");
@@ -38,7 +43,10 @@
                                 ${song.files.map(note => `
                                     <div class="download-item">
                                         <span>${note.name}</span>
-                                        <button onclick="window.open('${songFolderPath}/${note.file}', '_blank')">Download</button>
+                                        <!-- Neuer Button für den YouTube-Link -->
+                                        <button class="youtube-btn" onclick="window.open('${note.audio}', '_blank')">Audio</button>
+                                        <!-- Button zum Download der PDF-Datei -->
+                                        <button class="download-btn" onclick="window.open('${songFolderPath}/${note.file}', '_blank')">Download</button>
                                     </div>
                                 `).join("")}
                             </div>

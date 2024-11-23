@@ -28,12 +28,13 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    width: 250px;
+    width: 280px; /* Erhöhte Mindestbreite für den Musik-Container */
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
+/* Hover-Effekt für jedes Musikstück */
 .music-item:hover {
     transform: scale(1.05);
 }
@@ -78,27 +79,45 @@ header {
     color: #333;
 }
 
-/* Button Styling */
-.download-item button {
-    background-color: #007bff;
+/* Neuer Stil für den YouTube-Link */
+.youtube-btn {
+    background-color: #ff4d4d; /* Rot */
     color: white;
     border: none;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 6px 12px; /* Etwas schmaler */
+    font-size: 12px; /* Kleinere Schrift */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Abstand zum Download-Button */
+}
+
+/* Hover-Effekt für den YouTube-Button */
+.youtube-btn:hover {
+    background-color: #e60000; /* Dunkleres Rot */
+}
+
+/* Styling für den allgemeinen Download-Button */
+.download-item .download-btn {
+    background-color: #007bff; /* Blau */
+    color: white;
+    border: none;
+    padding: 6px 12px; /* Etwas schmaler */
+    font-size: 12px; /* Kleinere Schrift */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-/* Hover-Effekt für Buttons */
-.download-item button:hover {
-    background-color: #0056b3;
+/* Hover-Effekt für den Download-Button */
+.download-item .download-btn:hover {
+    background-color: #0056b3; /* Dunkleres Blau */
 }
 
 /* Responsivität für kleine Bildschirme */
 @media (max-width: 600px) {
     .music-item {
-        width: 90%;
+        width: 90%; /* Breite auf 90% setzen */
     }
 
     .download-item {
@@ -112,7 +131,17 @@ header {
         margin-bottom: 5px;
     }
 
-    .download-item button {
-        width: 100%;
+    .download-item .youtube-btn,
+    .download-item .download-btn {
+        width: 100%; /* Buttons auf volle Breite bei kleinen Bildschirmen */
     }
+}
+
+/* Footer-Styling */
+footer {
+    background-color: #003c7c; /* Dunkelblau passend zum Header */
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
 }

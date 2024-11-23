@@ -6,27 +6,33 @@
         "files": [
             {
                 "name": "Partitur",
-                "file": "Hit the Road Jack.pdf"
+                "file": "Hit the Road Jack.pdf",
+                "audio": "https://youtu.be/Ww3OLhzlYv4"
             },
             {
                 "name": "Violine 1",
-                "file": "Hit the Road Jack-Violine_1.pdf"
+                "file": "Hit the Road Jack-Violine_1.pdf",
+                "audio": "https://youtu.be/S5JCYg96-vk"
             },
             {
                 "name": "Violine 2",
-                "file": "Hit the Road Jack-Violine_2.pdf"
+                "file": "Hit the Road Jack-Violine_2.pdf",
+                "audio": "https://youtu.be/E1eknljfm34"
             },
             {
                 "name": "Klarinette",
-                "file": "Hit the Road Jack-Klarinette.pdf"
+                "file": "Hit the Road Jack-Klarinette.pdf",
+                "audio": "https://youtu.be/opQfS-0Fhcs"
             },
             {
                 "name": "Violoncello",
-                "file": "Hit the Road Jack-Violoncello.pdf"
+                "file": "Hit the Road Jack-Violoncello.pdf",
+                "audio": "https://youtu.be/sKOlQeZk2_I"
             },
             {
                 "name": "Klavier",
-                "file": "Hit the Road Jack-Klavier.pdf"
+                "file": "Hit the Road Jack-Klavier.pdf",
+                "audio": "https://youtu.be/pZdG2AkIlto"
             }
         ]
     }
