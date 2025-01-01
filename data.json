@@ -35,5 +35,42 @@
                 "audio": "https://youtu.be/pZdG2AkIlto"
             }
         ]
+    },
+    {
+        "bezeichnung": "Grastuno bal",
+        "titel": "Grastuno bal",
+        "cover": "cover.png",
+        "files": [
+            {
+                "name": "Partitur",
+                "file": "Grastuno bal.pdf",
+                "audio": "https://youtu.be/qXS9BeUmrLI"
+            },
+            {
+                "name": "Violine 1",
+                "file": "Grastuno bal-Violine_1.pdf",
+                "audio": "https://youtu.be/h0vUTlhZv1k"
+            },
+            {
+                "name": "Violine 2",
+                "file": "Grastuno bal-Violine_2.pdf",
+                "audio": "https://youtu.be/jKeIivlHzT0"
+            },
+            {
+                "name": "Klarinette",
+                "file": "Grastuno bal-Klarinette.pdf",
+                "audio": "https://youtu.be/SgCw1ezPFbE"
+            },
+            {
+                "name": "Violoncello",
+                "file": "Grastuno bal-Violoncello.pdf",
+                "audio": "https://youtu.be/u5q3CyF8gq8"
+            },
+            {
+                "name": "Klavier",
+                "file": "Grastuno bal-Klavier.pdf",
+                "audio": "https://youtu.be/XnkkLPXyfho"
+            }
+        ]
     }
 ]
