@@ -72,5 +72,42 @@
                 "audio": "https://youtu.be/XnkkLPXyfho"
             }
         ]
+    },
+    {
+        "bezeichnung": "Opus Dens",
+        "titel": "Opus Dens",
+        "cover": "cover.png",
+        "files": [
+            {
+                "name": "Partitur",
+                "file": "Opus Dens.pdf",
+                "audio": "./noten/Opus Dens/Opus Dens.mp3"
+            },
+            {
+                "name": "Violine",
+                "file": "Opus Dens-Violine.pdf",
+                "audio": "https://youtu.be/WoRUMZbW-n8"
+            },
+            {
+                "name": "Oboe",
+                "file": "Opus Dens-Oboe.pdf",
+                "audio": "https://youtu.be/BsrKbF5sO1E"
+            },
+            {
+                "name": "Klarinette",
+                "file": "Opus Dens-Klarinette.pdf",
+                "audio": "https://youtu.be/PT2nasrNR_w"
+            },
+            {
+                "name": "Violoncello",
+                "file": "Opus Dens-Violoncello.pdf",
+                "audio": "./noten/Opus Dens/Opus Dens-Violoncello.mp3"
+            },
+            {
+                "name": "Klavier",
+                "file": "Opus Dens-Klavier.pdf",
+                "audio": "https://youtu.be/i14cQUoIq4U"
+            }
+        ]
     }
 ]
