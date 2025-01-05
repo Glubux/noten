@@ -81,7 +81,7 @@
             {
                 "name": "Partitur",
                 "file": "Opus Dens.pdf",
-                "audio": "./noten/Opus Dens/Opus Dens.mp3"
+                "audio": "https://youtu.be/luSERDbbQH8"
             },
             {
                 "name": "Violine",
@@ -101,7 +101,7 @@
             {
                 "name": "Violoncello",
                 "file": "Opus Dens-Violoncello.pdf",
-                "audio": "./noten/Opus Dens/Opus Dens-Violoncello.mp3"
+                "audio": "https://youtu.be/moU3WnJL_bs"
             },
             {
                 "name": "Klavier",
