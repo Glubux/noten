@@ -109,5 +109,42 @@
                 "audio": "https://youtu.be/rttsKAVdfdA"
             }
         ]
+    },
+    {
+        "bezeichnung": "Opus Dens",
+        "titel": "Opus Dens",
+        "cover": "cover.png",
+        "files": [
+            {
+                "name": "Partitur",
+                "file": "Ungarischer Tanz Partitur.pdf",
+                "audio": "https://youtu.be/pT8BkSodfdA"
+            },
+            {
+                "name": "Violine 1",
+                "file": "Ungarischer Tanz Partitur-Violinen_(Gruppe).pdf",
+                "audio": "https://youtu.be/2a95XBgz9dU"
+            },
+            {
+                "name": "Violine 2",
+                "file": "Ungarischer Tanz Partitur-Violinen_(Gruppe)_(1).pdf",
+                "audio": "https://youtu.be/psYgcPFlZcA"
+            },
+            {
+                "name": "Klarinette",
+                "file": "Ungarischer Tanz Partitur-Klarinette_in_B.pdf",
+                "audio": "https://youtu.be/HwmPQmGEML8"
+            },
+            {
+                "name": "Violoncello",
+                "file": "Ungarischer Tanz Partitur-Violoncello.pdf",
+                "audio": "https://youtu.be/KYjv3eJ3xeU"
+            },
+            {
+                "name": "Klavier",
+                "file": "Ungarischer Tanz Partitur-Pianino.pdf",
+                "audio": "https://youtu.be/0CFwa2p4uFE"
+            }
+        ]
     }
 ]
