@@ -183,5 +183,42 @@
                 "audio": "https://youtu.be/6paKyKX8wkI"
             }
         ]
+    },
+    {
+        "bezeichnung": "spanischer_tanz",
+        "titel": "Spanischer Tanz",
+        "cover": "cover.png",
+        "files": [
+            {
+                "name": "Partitur",
+                "file": "spanischer tanz.pdf",
+                "audio": "https://youtu.be/ygLFvkHgH2o"
+            },
+            {
+                "name": "Violine",
+                "file": "spanischer tanz-Violine.pdf",
+                "audio": "https://youtu.be/Hi9aXYTTfBg"
+            },
+            {
+                "name": "Klarinette",
+                "file": "spanischer tanz-Klarinette_in_B.pdf",
+                "audio": "https://youtu.be/xYVFS0dS6Sw"
+            },
+            {
+                "name": "Viola",
+                "file": "spanischer tanz-Viola.pdf",
+                "audio": "https://youtu.be/lRc_1gkPK6M"
+            },
+            {
+                "name": "Violoncello",
+                "file": "spanischer tanz-Violoncello.pdf",
+                "audio": "https://youtu.be/A7C_hA8wnd4"
+            },
+            {
+                "name": "Klavier",
+                "file": "spanischer tanz-Piano.pdf",
+                "audio": "https://youtu.be/ZFMa8Cc3mVc"
+            }
+        ]
     }
 ]
