@@ -146,5 +146,42 @@
                 "audio": "https://youtu.be/0CFwa2p4uFE"
             }
         ]
+    },
+    {
+        "bezeichnung": "la_cumparasita",
+        "titel": "La Cumparasita",
+        "cover": "cover.png",
+        "files": [
+            {
+                "name": "Partitur",
+                "file": "la_cumparasita.pdf",
+                "audio": "https://youtu.be/FCgJbxOhaYs"
+            },
+            {
+                "name": "Violine 1",
+                "file": "la_cumparasita-Violine_1.pdf",
+                "audio": "https://youtu.be/zo4Mn9f5jdA"
+            },
+            {
+                "name": "Violine 2",
+                "file": "la_cumparasita-Violine_2.pdf",
+                "audio": "https://youtu.be/Nq0Nmj1xn9s"
+            },
+            {
+                "name": "Klarinette",
+                "file": "la_cumparasita-Klarinette_in_B.pdf",
+                "audio": "https://youtu.be/Umd6GVtopug"
+            },
+            {
+                "name": "Violoncello",
+                "file": "la_cumparasita-Violoncello.pdf",
+                "audio": "https://youtu.be/S-4e8GO33YM"
+            },
+            {
+                "name": "Klavier",
+                "file": "la_cumparasita-Pianino.pdf",
+                "audio": "https://youtu.be/6paKyKX8wkI"
+            }
+        ]
     }
 ]
